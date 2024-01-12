@@ -19,5 +19,5 @@ const { docs: launches } = (await res.json()) as APISpaceXResponse;
 ---
 
 <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-  {launches.map((launch) => <h2>Launcn #{launch.id}</h2>)}
+  {launches.map((launch) => <h2>Launch #{launch.id}</h2>)}
 </div>
